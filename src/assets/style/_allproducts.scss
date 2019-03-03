@@ -1,0 +1,18 @@
+
+.products-item{
+
+    .card{
+        transition: box-shadow ease-out 200ms;
+    }
+
+    &:hover{
+        
+        .card{
+            @extend .shadow;
+        }
+    }
+}
+
+.product-input-quantity{
+    width: 55px;
+}

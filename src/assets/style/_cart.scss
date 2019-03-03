@@ -1,0 +1,14 @@
+
+.cart{
+    
+    &-article{
+
+        &-img{
+            max-width: 200px;
+        }
+        
+        &-quantity{
+            width: 55px;
+        }
+    }
+}

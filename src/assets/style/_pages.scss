@@ -1,0 +1,33 @@
+
+
+.home-title{
+
+    @include media-breakpoint-down(md) {
+        font-size: 2rem
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.5rem
+    }
+    
+
+}
+
+.product-fiche-img{
+    
+    @include media-breakpoint-down(lg) {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        width: 8rem;
+        height: 8rem;
+    }
+
+}

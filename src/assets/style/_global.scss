@@ -1,0 +1,33 @@
+
+._bg-primary{
+    background-color: $colorPrimary
+}
+
+._bg-secondary{
+    background-color: $colorSecondary
+}
+
+body{
+    background-color: $colorPrimary;
+}
+
+.nounderline{
+    text-decoration: none!important;
+}
+
+.navbar-search{
+    max-width: 450px;
+}
+
+.price{
+    @extend .text-primary;
+    @extend .font-italic;
+    @extend .font-weight-normal;
+}
+
+.product-fiche-img{
+    object-fit: cover
+}
+
+
+/** BOOSTRAP TRICK **/

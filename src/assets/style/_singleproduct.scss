@@ -1,0 +1,15 @@
+.rate{
+
+    .star svg{
+        fill: #c5c5c5
+    }
+
+    .star.active svg{
+        fill: $yellow
+    }
+}
+
+.product-fiche-img{
+    width: 100%;
+    height: auto
+}
